@@ -1,0 +1,7 @@
+com\ead\lab\DeleteTaskServlet.class
+com\ead\lab\DisplayTasksServlet.class
+com\ead\lab\TaskRegistrationServlet.class
+com\ead\lab\DBConnectionManager.class
+com\ead\lab\LoggingAspect.class
+com\ead\lab\SearchTasksServlet.class
+com\ead\lab\Task.class

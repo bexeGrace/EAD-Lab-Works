@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="">
+      <a href="/todo2/tasks/addTask">
+        <button>
+          <h2>Add a Task</h2>
+        </button>
+      </a>
+
+      <hr />
+
+      <a href="/todo2/tasks/displayTasks">
+        <button>
+          <h2>Display Tasks</h2>
+        </button>
+      </a>
+
+      <hr />
+
+      <form action="/todo2/tasks/deleteTask" method="post">
+        <h2>Delete Tasks</h2>
+        <label for="taskID">Task ID:</label>
+        <input type="text" id="taskID" name="id" />
+        <input type="submit" value="Delete" />
+      </form>
+
+      <hr />
+
+      <form action="/todo2/tasks/searchTasks" method="get">
+        <h2>Search for Tasks</h2>
+        <label for="searchTerm">Search Term:</label>
+        <input type="text" id="searchTerm" name="description" />
+        <input type="submit" value="Search" />
+      </form>
+    </div>
+  </body>
+</html>
