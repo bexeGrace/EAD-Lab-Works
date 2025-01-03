@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import lombok.Setter;
 
+// Betsegaw Mesele
 @RequestMapping("/addBook")
 public class BookRegistrationServlet {
     private static final String query = "insert into books(title, author, price) values(?, ?, ?)";
